@@ -5,7 +5,7 @@ export const TestComp = (props) => {
 
   return (
     <div>
-      <button>{label}</button>
+      <h1>{label} xxx</h1>
     </div>
   );
 };
