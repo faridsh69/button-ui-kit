@@ -1,10 +1,10 @@
 {
   "name": "button-ui-kit",
-  "version": "1.0.8",
+  "version": "1.0.14",
   "description": "x",
-  "main": "src3/index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "build": "babel src3 -d dist",
+    "build": "tsc",
     "prepublishOnly": "npm run build"
   },
   "publishConfig": {
@@ -32,5 +32,8 @@
     "@babel/preset-env": "^7.25.4",
     "@babel/preset-react": "^7.24.7",
     "save-dev": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4"
   }
 }
