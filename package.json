@@ -1,0 +1,36 @@
+{
+  "name": "button-ui-kit",
+  "version": "1.0.8",
+  "description": "x",
+  "main": "src3/index.js",
+  "scripts": {
+    "build": "babel src3 -d dist",
+    "prepublishOnly": "npm run build"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faridsh69/button-ui-kit.git"
+  },
+  "keywords": [
+    "x"
+  ],
+  "author": "f",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/faridsh69/button-ui-kit/issues"
+  },
+  "homepage": "https://github.com/faridsh69/button-ui-kit#readme",
+  "peerDependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.24.8",
+    "@babel/preset-env": "^7.25.4",
+    "@babel/preset-react": "^7.24.7",
+    "save-dev": "^0.0.1-security"
+  }
+}

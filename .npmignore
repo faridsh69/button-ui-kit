@@ -1,0 +1,12 @@
+/src3
+.babelrc
+/node_modules
+
+node_modules/
+src3/
+
+webpack.local.config.js
+webpack.production.config.js
+
+.eslintrc
+.gitignore
